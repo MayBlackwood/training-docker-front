@@ -1,0 +1,21 @@
+.usersContainer {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+
+  .userRow,
+  .usersHeader {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headerCell,
+  .cell {
+    width: 15%;
+    word-wrap: unset;;
+    text-align: left;
+  }
+}
